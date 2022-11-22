@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.homepage{
+    background-color: black;
+    overflow-y: scroll;
+}
+.vertical-menu{
+    width: 200px;
+    height: 100%;
+    margin-right: 25%;
+    margin-top: 250px;
+    float: right;
+}
+.vertical-menu a:link{
+    display: block;
+    text-decoration: none;
+    color:#c4c4c4;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    padding: 16px;
+}
+.vertical-menu a:visited{
+    display: block;
+    text-decoration: none;
+    color:#c4c4c4;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    padding: 16px;
+}
+.vertical-menu a:hover{
+    display: block;
+    text-decoration: none;
+    color:grey;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    padding: 16px;
+}
+.intro{
+    height: 100vh;
+    background-image: url(images/hp-texture.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+}
+.intro-style{
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    top: 200px;
+    left: 200px
+}
+.history{
+    height: 100vh;
+    background-image: url(images/hp-texture.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+}
+.center-text{
+    font-family:'PT Serif', serif;
+    color:#c4c4c4;
+    margin: 0;
+    padding-right: 380px;
+    padding-left: 380px;
+    padding-top: 80px;
+    font-size: 22px;
+    line-height: 28px;
+}
+.history-style{
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.horizontal-menu a:link{
+    float: left;
+    padding-top: 40px;
+    text-decoration: none;
+    color:#c4c4c4;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+.horizontal-menu a:visited{
+    float: left;
+    padding-top: 40px;
+    text-decoration: none;
+    color:#c4c4c4;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+    width: 20%;
+    text-align: center;
+    z-index: 3;
+}
+.horizontal-menu a:hover{
+    float: left;
+    padding-top: 40px;
+    text-decoration: none;
+    color:grey;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+    width: 20%;
+    text-align: center;
+    z-index: 3;
+}
+.war-bg{
+    background-color: black;
+    background-image: url(images/fire-and-smoke.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0;
+}
+.war-text{
+    font-family:'PT Serif', serif;
+    color:#c4c4c4;
+    margin: 0;
+    padding-right: 52%;
+    padding-left:10%;
+    padding-top: 20%;
+    font-size: 24px;
+    line-height: 33px; 
+}
+.smoke-overlay{
+    width: 70vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.sparks{
+    width: 60vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.right-title{
+    width: 90vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+.right-character{
+    width: 85vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.famine-text{
+    font-family:'PT Serif', serif;
+    color:#c4c4c4;
+    margin: 0;
+    padding-left: 51%;
+    padding-right: 170px;
+    padding-top: 380px;
+    font-size: 28px;
+    line-height: 36px; 
+}
+.mist{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2; 
+}
+.scales{
+    width: 85vw;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    z-index: 1;
+}
+.left-character{
+    width: 85vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.left-title{
+    width: 90vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.famine-bg{
+    background-color: black;
+    background-image: url(images/famine-texture.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0;
+}
+.pollution-bg{
+    background-color: white;
+    background-image: url(images/black-sludge.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0;
+}
