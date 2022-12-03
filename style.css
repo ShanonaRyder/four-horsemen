@@ -119,7 +119,7 @@ img{
     background-size:cover;
     margin:0;
 }
-.war-text{
+.left-text{
     font-family:'PT Serif', serif;
     color:#c4c4c4;
     margin: 0;
@@ -129,7 +129,7 @@ img{
     font-size: 24px;
     line-height: 33px; 
 }
-.smoke-overlay{
+.left-overlay{
     width: 70vw;
     position: absolute;
     bottom: 0;
@@ -156,15 +156,15 @@ img{
     bottom: 0;
     right: 0;
 }
-.famine-text{
+.right-text{
     font-family:'PT Serif', serif;
     color:#c4c4c4;
     margin: 0;
     padding-left: 51%;
-    padding-right: 170px;
-    padding-top: 380px;
-    font-size: 28px;
-    line-height: 36px; 
+    padding-right: 10%;
+    padding-top: 20%;
+    font-size: 24px;
+    line-height: 33px; 
 }
 .mist{
     width: 100%;
