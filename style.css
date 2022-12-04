@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
+
 .homepage{
     background-color: black;
     overflow-y: scroll;
@@ -113,12 +114,95 @@ img{
     z-index: 3;
 }
 .war-bg{
+    overflow: hidden;
     background-color: black;
     background-image: url(images/fire-and-smoke.png);
     background-repeat: no-repeat;
     background-size:cover;
     margin:0;
 }
+
+.war-text{
+    font-family:'PT Serif', serif;
+    color:#c4c4c4;
+    margin: 0;
+    padding-right: 52%;
+    padding-left:10%;
+    padding-top: 3%;
+    font-size: 24px;
+    line-height: 33px; 
+}
+.wrapper{
+    height: 10px;
+    padding-top: 20%;
+    padding-left: 25%;
+    font-size: 21px;
+}
+.red {
+    width: 80px;
+    height: 80px;
+    background: orangered;
+    box-shadow: 0px 0px 10px 5px orangered;
+}
+.orange {
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    background: orange;
+    box-shadow: 0px 0px 12px 6px orange;
+}
+.gold {
+    left: 18px;
+    width: 45px;
+    height: 45px;
+    background: gold;
+    box-shadow: 0px 0px 9px 4px gold;
+}
+.blue {
+    left: 32px;
+    width: 15px;
+    height: 15px;
+    background: darkblue;
+    box-shadow: 0px 0px 15px 10px darkblue;
+}
+.black {
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    bottom: -50px;
+    background: black;
+    box-shadow: 0px 0px 15px 10px black;
+}
+.base {
+    border-radius: 50%;
+    position: absolute;
+}
+.white {
+    left: 22px;
+    width: 35px;
+    height: 35px;
+    background: lightyellow;
+    box-shadow: 0px 0px 9px 4px lightyellow;
+}
+.flame-wrapper {
+    position: relative;
+    animation: flicker 3ms ease-in infinite;
+}
+.flame {
+    bottom: 0;
+    position: absolute;
+    border-radius: 50% 0% 50% 50%;
+    transform: rotate(-35deg);
+}
+@keyframes flicker {
+    0% {transform: rotate(-0.8deg);}
+    20% {transform: rotate(1.2deg) scaleY(1.03);}
+    40% {transform: rotate(-0.8deg);}
+    60% {transform: rotate(0.8deg);}
+    80% {transform: rotate(-0.8deg)scaleY(1);}
+    100% {transform: rotate(0.8deg);}
+}
+
 .pollution-bg{
     background-color: white;
     background-image: url(images/black-sludge.png);
