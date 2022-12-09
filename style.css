@@ -170,7 +170,7 @@
 .war-bg{
     overflow: hidden;
     background-color: black;
-    background-image: url(images/fire-and-smoke.png);
+    background-image: url(images/fire-smoke.png);
     background-repeat: no-repeat;
     background-size:cover;
     margin:0;
@@ -182,10 +182,11 @@
     margin: 0;
     padding-right: 52%;
     padding-left:10%;
-    padding-top: 3%;
+    padding-top: 0%;
     font-size: 24px;
     line-height: 33px; 
 }
+
 .wrapper{
     height: 10px;
     padding-top: 20%;
@@ -240,20 +241,20 @@
 }
 .flame-wrapper {
     position: relative;
-    animation: flicker 3ms ease-in infinite;
+    animation: flicker 1.5s ease-in infinite;
 }
 .flame {
     bottom: 0;
     position: absolute;
     border-radius: 50% 0% 50% 50%;
-    transform: rotate(-35deg);
+    transform: rotate(-40deg);
 }
 @keyframes flicker {
     0% {transform: rotate(-0.8deg);}
-    20% {transform: rotate(1.2deg) scaleY(1.03);}
+    20% {transform: rotate(1deg) scaleY(0.95);}
     40% {transform: rotate(-0.8deg);}
     60% {transform: rotate(0.8deg);}
-    80% {transform: rotate(-0.8deg)scaleY(1);}
+    80% {transform: rotate(-0.8deg)scaleY(0.9);}
     100% {transform: rotate(0.8deg);}
 }
 
@@ -268,9 +269,9 @@
     font-family:'PT Serif', serif;
     color:#c4c4c4;
     margin: 0;
-    padding-right: 52%;
-    padding-left:10%;
-    padding-top: 20%;
+    padding-right: 45%;
+    padding-left:12%;
+    padding-top: 18%;
     font-size: 24px;
     line-height: 33px; 
 }
@@ -305,9 +306,9 @@
     font-family:'PT Serif', serif;
     color:#c4c4c4;
     margin: 0;
-    padding-left: 51%;
-    padding-right: 10%;
-    padding-top: 20%;
+    padding-left: 48%;
+    padding-right: 14%;
+    padding-top: 18%;
     font-size: 24px;
     line-height: 33px; 
 }
@@ -317,6 +318,10 @@
     background-repeat: no-repeat;
     background-size:cover;
     margin:0;
+}
+.scratches{
+    position: absolute;
+    height: 100vh;
 }
 .death-bg{
     background-color: black;
